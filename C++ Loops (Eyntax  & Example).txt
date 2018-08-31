@@ -1,0 +1,100 @@
+                                                              <___Loops___>
+
+* Need to be write once and execute that statment as many time we want 
+
+Types :
+
+Entry controlled loops :
+
+* Condition is tested before entring the loop body. ((For loop ,  While loop))
+
+Exit controlled loops :
+
+* Contition are tested at the end after entring "fall through instruction"
+
+________________________________________________________________________________________________________________
+
+for loop : Syntax 
+
+for (intialization expr; test expr; update expr)
+{
+	//body 
+       // Statement during execution
+}
+
+Example :
+
+using namspace std;
+int main()
+{
+	for (int i = 1;i<=10;i++)                  // increment , condition, body & update 
+	{
+		count <<Hell \n>>
+	}
+	return 0;
+}
+
+________________________________________________________________________________________________________________
+
+While loop : syntax
+
+initialization expression;
+
+while (test_expression)
+{
+	//statment
+	update_expression;
+}
+
+Example :
+
+using namespace std;
+
+int main()
+{
+	int i = 1;
+	while (i<6)
+	{count <<"Hell \n">>; i++}
+	
+	return 0;
+} 
+________________________________________________________________________________________________________________
+
+do while loop : syntax
+
+initialization expression 
+do
+{
+	//statement
+	update expression;
+}	
+	while (test expression);
+
+Example :
+
+using namespace std;
+
+int main()
+{
+	int i = 2;
+	do
+	{
+	  count<<hell \n>>;
+	  i++;
+	 } while (i<1);
+	 return 0;
+}
+________________________________________________________________________________________________________________
+infinite loop (;;)
+
+Example : 
+
+using namespace std;
+int main ()
+{
+	for (;;)
+	{
+	 count <<loop hell \n>>;
+	}
+} 
+________________________________________________________________________________________________________________
